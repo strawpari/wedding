@@ -1,0 +1,13 @@
+{
+  "name": "wedding",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://<username>.github.io/wedding",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  }
+}
+
